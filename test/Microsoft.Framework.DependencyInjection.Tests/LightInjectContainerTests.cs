@@ -2,13 +2,13 @@
 // Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
 
 using System;
-using Microsoft.Framework.DependencyInjection.SimpleInjector;
 using Microsoft.Framework.DependencyInjection.Tests.Fakes;
-using SimpleInjector;
+using Microsoft.Framework.DependencyInjection.LightInject;
+using LightInject;
 
 namespace Microsoft.Framework.DependencyInjection.Tests
 {
-    public class SimpleInjectorContainerTests : ScopingContainerTestBase
+    public class LightInjectContainerTests : ScopingContainerTestBase
     {
         protected override IServiceProvider CreateContainer()
         {
@@ -17,7 +17,7 @@ namespace Microsoft.Framework.DependencyInjection.Tests
 
         protected override IServiceProvider CreateContainer(IServiceProvider fallbackProvider)
         {
-            var container = new Container();
+            var container = new ServiceContainer();
 
             container.Populate(
                 TestServices.DefaultServices(),

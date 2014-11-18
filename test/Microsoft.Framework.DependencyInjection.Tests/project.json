@@ -2,15 +2,14 @@
     "version": "0.1-alpha-*",
     "dependencies": {
         "Autofac": "3.3.0",
+        "LightInject": "3.0.2.0",
         "Microsoft.Framework.DependencyInjection": "1.0.0-*",
         "Microsoft.Framework.DependencyInjection.Autofac": "1.0.0-*",
         "Microsoft.Framework.DependencyInjection.Ninject": "1.0.0-*",
         "Ninject": "3.0.1.10",
         "structuremap": "2.6.4.1",
         "Xunit.KRunner": "1.0.0-*",
-        "Microsoft.Framework.DependencyInjection.SimpleInjector": "1.0.0-*",
-        "SimpleInjector.Extensions.ExecutionContextScoping": "2.6.1.0",
-        "SimpleInjector": "2.6.1.0"
+        "Microsoft.Framework.DependencyInjection.LightInject": "1.0.0-*"
     },
     "frameworks": {
         "aspnet50": { }

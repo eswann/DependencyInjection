@@ -6,16 +6,17 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\AspNet\Microsoft.Web.AspNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>408ed48d-35c7-4312-bdf7-ec7205ccbfb4</ProjectGuid>
-    <RootNamespace>Microsoft.Framework.DependencyInjection.SimpleInjector</RootNamespace>
+    <ProjectGuid>a8ceb21b-def4-4197-8135-12083f3b58e8</ProjectGuid>
+    <RootNamespace>Microsoft.Framework.DependencyInjection.LightInject</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <AssemblyName>Microsoft.Framework.DependencyInjection.SimpleInjector</AssemblyName>
+    <AssemblyName>Microsoft.Framework.DependencyInjection.LightInject</AssemblyName>
   </PropertyGroup>
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
+    <DevelopmentServerPort>20903</DevelopmentServerPort>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\AspNet\Microsoft.Web.AspNet.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
